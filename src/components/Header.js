@@ -1,4 +1,5 @@
 import { useSelector } from "react-redux"
+import {NavLink} from "react-router-dom"
 
 const Header = () => {
 
@@ -10,8 +11,18 @@ const Header = () => {
 
   return (
     <div>
-        dark mode ={dark ? 'evet': 'hayir'}
-        <hr />
+      <nav>
+        <NavLink to='/'  exact='true'>home</NavLink>
+        <NavLink to='/About' exact='true'>about</NavLink>
+        <NavLink to='/Galery' exact='true'>galery</NavLink>
+      </nav>
+       
+          
+    
+          
+
+        dark mode ={dark ? 'evet': 'hayir'} <br />
+        
         language={language}
     </div>
   )

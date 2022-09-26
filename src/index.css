@@ -15,3 +15,16 @@ code {
   background: red;
   color:fff;
 }
+
+.dark{
+  background: #000;
+  color:#fff
+}
+
+.light{
+  background: #fff;
+  color: #000;
+}
+.renkli{
+  background: blue;
+}
